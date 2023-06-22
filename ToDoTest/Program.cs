@@ -1,4 +1,12 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using ToDoTest.DAL;
+
+    var builder = WebApplication.CreateBuilder(args);
+    
+    var connection = builder.Configuration.GetConnectionString("DefaultConnection");
+    builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
+    
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -25,3 +33,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+    
+

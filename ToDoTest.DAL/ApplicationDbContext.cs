@@ -8,7 +8,7 @@ namespace ToDoTest.DAL
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-            
+            Database.EnsureCreated();
         }
 
         public DbSet<Task> Tasks { get; set; } 

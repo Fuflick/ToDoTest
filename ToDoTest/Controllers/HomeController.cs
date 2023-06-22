@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ToDoTest.Models;
-using ToDoTest.Domain.Entity;
 using Task = ToDoTest.Domain.Entity.Task;
 
 
