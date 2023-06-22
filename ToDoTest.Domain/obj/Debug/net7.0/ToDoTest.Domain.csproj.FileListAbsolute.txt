@@ -1,0 +1,12 @@
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\bin\Debug\net7.0\ToDoTest.Domain.deps.json
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\bin\Debug\net7.0\ToDoTest.Domain.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\bin\Debug\net7.0\ToDoTest.Domain.pdb
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\ToDoTest.Domain.csproj.AssemblyReference.cache
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\ToDoTest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\ToDoTest.Domain.AssemblyInfoInputs.cache
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\ToDoTest.Domain.AssemblyInfo.cs
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\ToDoTest.Domain.csproj.CoreCompileInputs.cache
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\ToDoTest.Domain.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\refint\ToDoTest.Domain.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\ToDoTest.Domain.pdb
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest.Domain\obj\Debug\net7.0\ref\ToDoTest.Domain.dll

@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1F8B4A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoTest.Domain", "ToDoTest.Domain\ToDoTest.Domain.csproj", "{57A05F99-7B7F-4D5A-A7ED-ED1F18BDE9EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{6F2B8CD4-E0A9-4DB6-8080-2A95784DBE6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoTest.DAL", "ToDoTest.DAL\ToDoTest.DAL.csproj", "{7580F20F-0537-4CA9-9598-288EEB5C1266}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{57A05F99-7B7F-4D5A-A7ED-ED1F18BDE9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A05F99-7B7F-4D5A-A7ED-ED1F18BDE9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A05F99-7B7F-4D5A-A7ED-ED1F18BDE9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7580F20F-0537-4CA9-9598-288EEB5C1266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7580F20F-0537-4CA9-9598-288EEB5C1266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7580F20F-0537-4CA9-9598-288EEB5C1266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7580F20F-0537-4CA9-9598-288EEB5C1266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{57A05F99-7B7F-4D5A-A7ED-ED1F18BDE9EE} = {1F8B4AC7-E3F7-49D4-AA0A-8630CB5AF3F6}
+		{7580F20F-0537-4CA9-9598-288EEB5C1266} = {6F2B8CD4-E0A9-4DB6-8080-2A95784DBE6E}
 	EndGlobalSection
 EndGlobal
