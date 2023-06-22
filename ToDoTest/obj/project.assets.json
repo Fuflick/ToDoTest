@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "ToDoTest.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ToDoTest.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoTest.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ToDoTest.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ToDoTest.Domain/ToDoTest.Domain.csproj",
+      "msbuildProject": "../ToDoTest.Domain/ToDoTest.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "ToDoTest.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\79109\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Вуз_Работы\\C#\\Jeplex\\ToDoTest\\ToDoTest\\ToDoTest.Domain\\ToDoTest.Domain.csproj": {
+              "projectPath": "C:\\Вуз_Работы\\C#\\Jeplex\\ToDoTest\\ToDoTest\\ToDoTest.Domain\\ToDoTest.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

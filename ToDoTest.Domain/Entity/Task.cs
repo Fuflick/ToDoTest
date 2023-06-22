@@ -5,7 +5,6 @@ namespace ToDoTest.Domain.Entity
 {
     public class Task
     {
-        [Key]
         public int Id { get; set; }
         
         public string? Body { get; set; }
@@ -15,6 +14,11 @@ namespace ToDoTest.Domain.Entity
         public TaskType Type { get; set; }
         
         public DateTime DateTime { get; set; }
+
+        public Task()
+        {
+            
+        }
     }
 }
 

@@ -1,6 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ToDoTest.Models;
+using ToDoTest.Domain.Entity;
+using Task = ToDoTest.Domain.Entity.Task;
+
 
 namespace ToDoTest.Controllers;
 
@@ -15,7 +18,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        Task task = new Task()
+        {
+            Name = "test",
+            Body = "TestTestTest"
+        };
+        return View(task);
     }
 
     public IActionResult Privacy()
