@@ -5,6 +5,7 @@ namespace ToDoTest.Domain.Entity
 {
     public class Task
     {
+        [Key]
         public int Id { get; set; }
         
         public string? Body { get; set; }

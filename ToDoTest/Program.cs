@@ -4,10 +4,10 @@ using ToDoTest.DAL;
 
     var builder = WebApplication.CreateBuilder(args);
     
-    var connection = builder.Configuration.GetConnectionString("DefaultConnection");
-    builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
+    var connection = new SqlConnection("Server=KRAIBEN;Database=ToDoTest;Trusted_Connection=True");
     
-
+    builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
+connection.Open();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

@@ -42,7 +42,6 @@ C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Mic
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.Extensions.Caching.SqlServer.dll
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
