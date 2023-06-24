@@ -1,12 +1,14 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using ToDoTest.DAL;
+using ToDoTest.DAL.Interfaces;
+using ToDoTest.DAL.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var connection = new SqlConnection("Server=KRAIBEN;Database=ToDoTest;Trusted_Connection=True");
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
-
+builder.Services.AddScoped<ITaskRepository, Taskrepository>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

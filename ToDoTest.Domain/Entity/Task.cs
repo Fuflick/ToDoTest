@@ -10,11 +10,11 @@ namespace ToDoTest.Domain.Entity
         
         public string? Body { get; set; }
         
-        public string? Name { get; set; }
+        public string? TaskName { get; set; }
         
-        public TaskType Type { get; set; }
+        public TaskType TypeofTask { get; set; }
         
-        public DateTime DateTime { get; set; }
+        public DateTime SetTime { get; set; }
 
         public Task()
         {
