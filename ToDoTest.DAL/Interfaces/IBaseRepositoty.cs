@@ -6,7 +6,7 @@ public interface IBaseRepositoty<T>
 
     T Get(int id);
 
-    IEnumerable<T> Select();
+    Task<List<Task>> Select();
 
     bool Deleate(T entity);
 }
