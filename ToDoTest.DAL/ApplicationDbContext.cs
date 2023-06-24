@@ -8,10 +8,9 @@ namespace ToDoTest.DAL
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-            
         }
 
-        public DbSet<Task> Tasks { get; set; } 
+        public DbSet<Task>? Tasks { get; set; } 
     }
 }
 

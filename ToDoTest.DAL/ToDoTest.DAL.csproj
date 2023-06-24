@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.7">
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.5.23280.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.8">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
@@ -16,6 +16,10 @@
 
     <ItemGroup>
       <ProjectReference Include="..\ToDoTest.Domain\ToDoTest.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Repositories" />
     </ItemGroup>
 
 </Project>
