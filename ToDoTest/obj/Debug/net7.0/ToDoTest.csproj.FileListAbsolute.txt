@@ -81,3 +81,8 @@ C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\run
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\ToDoTest.DAL.dll
 C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\ToDoTest.DAL.pdb
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Humanizer.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Вуз_Работы\C#\Jeplex\ToDoTest\ToDoTest\ToDoTest\bin\Debug\net7.0\System.CodeDom.dll

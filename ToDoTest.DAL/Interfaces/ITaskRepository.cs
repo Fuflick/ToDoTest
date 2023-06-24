@@ -2,5 +2,5 @@
 
 public interface ITaskRepository : IBaseRepositoty<Task>
 {
-    
+    Task GetByName(string Name);
 }

@@ -2,12 +2,11 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using ToDoTest.DAL;
 
-    var builder = WebApplication.CreateBuilder(args);
-    
-    var connection = new SqlConnection("Server=KRAIBEN;Database=ToDoTest;Trusted_Connection=True");
-    
-    builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
-connection.Open();
+var builder = WebApplication.CreateBuilder(args);
+
+var connection = new SqlConnection("Server=KRAIBEN;Database=ToDoTest;Trusted_Connection=True");
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
