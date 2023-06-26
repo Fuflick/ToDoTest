@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "harZtYhV3zCMUbx8cGAH6kfLsf1brRlhZFp+4TR0POpZLm22O4EmmVNnpvyPD/D2xCAhuFDbUbNWH/vXBbmHyA==",
+  "dgSpecHash": "g1daEvGFNYedYS3DA3K8TDxSw/fj63sI21ZhsLatA2W60/MSRByb7c3ozP2Ht7PIAe553tYodC+FpBcRUeLEag==",
   "success": true,
   "projectFilePath": "C:\\Вуз_Работы\\C#\\Jeplex\\ToDoTest\\ToDoTest\\ToDoTest\\ToDoTest.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.8.0.0-preview.5.23280.1.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.5.23280.1.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.5.23280.1.nupkg.sha512",
-    "C:\\Users\\79109\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.8\\microsoft.entityframeworkcore.design.7.0.8.nupkg.sha512",
+    "C:\\Users\\79109\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.design.8.0.0-preview.5.23280.1.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.relational.8.0.0-preview.5.23280.1.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.sqlserver.8.0.0-preview.5.23280.1.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.caching.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
@@ -22,7 +22,7 @@
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.configuration.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
-    "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencymodel.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.5.23280.8\\microsoft.extensions.logging.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.logging.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.5.23280.8\\microsoft.extensions.options.8.0.0-preview.5.23280.8.nupkg.sha512",
@@ -59,8 +59,8 @@
     "C:\\Users\\79109\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
-    "C:\\Users\\79109\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\79109\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\79109\\.nuget\\packages\\system.text.encodings.web\\8.0.0-preview.5.23280.8\\system.text.encodings.web.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\79109\\.nuget\\packages\\system.text.json\\8.0.0-preview.5.23280.8\\system.text.json.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\79109\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],

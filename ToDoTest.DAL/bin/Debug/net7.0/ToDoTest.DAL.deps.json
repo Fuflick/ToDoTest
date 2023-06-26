@@ -9,7 +9,7 @@
       "ToDoTest.DAL/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.5.23280.1",
-          "Microsoft.EntityFrameworkCore.Design": "7.0.8",
+          "Microsoft.EntityFrameworkCore.Design": "8.0.0-preview.5.23280.1",
           "ToDoTest.Domain": "1.0.0"
         },
         "runtime": {
@@ -48,29 +48,29 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.0-preview.5.23280.1": {},
-      "Microsoft.EntityFrameworkCore.Design/7.0.8": {
+      "Microsoft.EntityFrameworkCore.Design/8.0.0-preview.5.23280.1": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.8",
-          "Microsoft.Extensions.DependencyModel": "7.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0-preview.5.23280.1",
+          "Microsoft.Extensions.DependencyModel": "8.0.0-preview.5.23280.8",
           "Mono.TextTemplating": "2.2.1"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "7.0.8.0",
-            "fileVersion": "7.0.823.31802"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28001"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/7.0.8": {
+      "Microsoft.EntityFrameworkCore.Relational/8.0.0-preview.5.23280.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.5.23280.1",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0-preview.5.23280.8"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "7.0.8.0",
-            "fileVersion": "7.0.823.31802"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28001"
           }
         }
       },
@@ -100,14 +100,14 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0-preview.5.23280.8": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0-preview.5.23280.8"
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28008"
           }
         }
       },
@@ -130,15 +130,15 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyModel/7.0.0": {
+      "Microsoft.Extensions.DependencyModel/8.0.0-preview.5.23280.8": {
         "dependencies": {
-          "System.Text.Encodings.Web": "7.0.0",
-          "System.Text.Json": "7.0.0"
+          "System.Text.Encodings.Web": "8.0.0-preview.5.23280.8",
+          "System.Text.Json": "8.0.0-preview.5.23280.8"
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.DependencyModel.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28008"
           }
         }
       },
@@ -203,10 +203,31 @@
           }
         }
       },
-      "System.Text.Encodings.Web/7.0.0": {},
-      "System.Text.Json/7.0.0": {
+      "System.Text.Encodings.Web/8.0.0-preview.5.23280.8": {
+        "runtime": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28008"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28008"
+          }
+        }
+      },
+      "System.Text.Json/8.0.0-preview.5.23280.8": {
         "dependencies": {
-          "System.Text.Encodings.Web": "7.0.0"
+          "System.Text.Encodings.Web": "8.0.0-preview.5.23280.8"
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28008"
+          }
         }
       },
       "ToDoTest.Domain/1.0.0": {
@@ -250,19 +271,19 @@
       "path": "microsoft.entityframeworkcore.analyzers/8.0.0-preview.5.23280.1",
       "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.0-preview.5.23280.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/7.0.8": {
+    "Microsoft.EntityFrameworkCore.Design/8.0.0-preview.5.23280.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dG+QxTeRZhtEbsN+VXF2D5z6kT1/pOFRkSTXnggugqTz3p7qSceyLqJoyGZXI8l3YsmDywgD7yfxvcy0X8uZMA==",
-      "path": "microsoft.entityframeworkcore.design/7.0.8",
-      "hashPath": "microsoft.entityframeworkcore.design.7.0.8.nupkg.sha512"
+      "sha512": "sha512-AL1+pmGoSn+pFt6Di42hbp/pUJXJh7EpRPsZa+LiAUVHzhW8tQAHR99eY61sYazDhc+1NvWLumtLudE6qwEqaA==",
+      "path": "microsoft.entityframeworkcore.design/8.0.0-preview.5.23280.1",
+      "hashPath": "microsoft.entityframeworkcore.design.8.0.0-preview.5.23280.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/7.0.8": {
+    "Microsoft.EntityFrameworkCore.Relational/8.0.0-preview.5.23280.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-C9NYwZdtAd0Ov2jQz4vNplifA/zmvn7BN6k7HrxRdbK4pdg18mFDQAedkJX2hGngNEMwssapzlRhsUSV0Q34rA==",
-      "path": "microsoft.entityframeworkcore.relational/7.0.8",
-      "hashPath": "microsoft.entityframeworkcore.relational.7.0.8.nupkg.sha512"
+      "sha512": "sha512-Cd8kScTTLMN7KeqygQdjqVrB3x8Q3aLjrBzFT8JkbfXRhOFmrHY5cQQ0aTCdV3HgZNXIgsZdXmQHUxdbVAwVIg==",
+      "path": "microsoft.entityframeworkcore.relational/8.0.0-preview.5.23280.1",
+      "hashPath": "microsoft.entityframeworkcore.relational.8.0.0-preview.5.23280.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0-preview.5.23280.8": {
       "type": "package",
@@ -278,12 +299,12 @@
       "path": "microsoft.extensions.caching.memory/8.0.0-preview.5.23280.8",
       "hashPath": "microsoft.extensions.caching.memory.8.0.0-preview.5.23280.8.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0-preview.5.23280.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
-      "path": "microsoft.extensions.configuration.abstractions/7.0.0",
-      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
+      "sha512": "sha512-26raKQ1DE+ArdWoYG3RB7T4n+/2HRzhMWSsJdupadAOLSJndBs+TjjpIsoGGExY0sHUmxjy1eO9U9+5pn36kow==",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0-preview.5.23280.8",
+      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/8.0.0-preview.5.23280.8": {
       "type": "package",
@@ -299,12 +320,12 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.5.23280.8",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyModel/7.0.0": {
+    "Microsoft.Extensions.DependencyModel/8.0.0-preview.5.23280.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oONNYd71J3LzkWc4fUHl3SvMfiQMYUCo/mDHDEu76hYYxdhdrPYv6fvGv9nnKVyhE9P0h20AU8RZB5OOWQcAXg==",
-      "path": "microsoft.extensions.dependencymodel/7.0.0",
-      "hashPath": "microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512"
+      "sha512": "sha512-A9c3yKnzuVQLGvRbAYyfx4oTGrOITUl7oaUxynGQ/8fHyWQjtoqR64o7NtIxYD2TOSqU7IWgteDFAcGLxvuNGg==",
+      "path": "microsoft.extensions.dependencymodel/8.0.0-preview.5.23280.8",
+      "hashPath": "microsoft.extensions.dependencymodel.8.0.0-preview.5.23280.8.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/8.0.0-preview.5.23280.8": {
       "type": "package",
@@ -348,19 +369,19 @@
       "path": "system.codedom/4.4.0",
       "hashPath": "system.codedom.4.4.0.nupkg.sha512"
     },
-    "System.Text.Encodings.Web/7.0.0": {
+    "System.Text.Encodings.Web/8.0.0-preview.5.23280.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
-      "path": "system.text.encodings.web/7.0.0",
-      "hashPath": "system.text.encodings.web.7.0.0.nupkg.sha512"
+      "sha512": "sha512-g4I3rXyyQj4AmsooE1z1nCYjXY712foWowYdCep13QajdgNiVOXSBTij2CbqR6+gryMj/x/cInk2TGcBS79ubw==",
+      "path": "system.text.encodings.web/8.0.0-preview.5.23280.8",
+      "hashPath": "system.text.encodings.web.8.0.0-preview.5.23280.8.nupkg.sha512"
     },
-    "System.Text.Json/7.0.0": {
+    "System.Text.Json/8.0.0-preview.5.23280.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
-      "path": "system.text.json/7.0.0",
-      "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+      "sha512": "sha512-pIbWMzNEuUrO0DAe2T17rloNfrYsHg8MHhmxLOlyPHZgrAXEr3smeZvHaxNGkrJHYPoO7hgmWI9tuTI/kiJT8Q==",
+      "path": "system.text.json/8.0.0-preview.5.23280.8",
+      "hashPath": "system.text.json.8.0.0-preview.5.23280.8.nupkg.sha512"
     },
     "ToDoTest.Domain/1.0.0": {
       "type": "project",

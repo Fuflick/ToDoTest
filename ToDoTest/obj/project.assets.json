@@ -183,12 +183,12 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/7.0.8": {
+      "Microsoft.EntityFrameworkCore.Design/8.0.0-preview.5.23280.1": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.8",
-          "Microsoft.Extensions.DependencyModel": "7.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0-preview.5.23280.1",
+          "Microsoft.Extensions.DependencyModel": "8.0.0-preview.5.23280.8",
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
@@ -335,11 +335,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyModel/7.0.0": {
+      "Microsoft.Extensions.DependencyModel/8.0.0-preview.5.23280.8": {
         "type": "package",
         "dependencies": {
-          "System.Text.Encodings.Web": "7.0.0",
-          "System.Text.Json": "7.0.0"
+          "System.Text.Encodings.Web": "8.0.0-preview.5.23280.8",
+          "System.Text.Json": "8.0.0-preview.5.23280.8"
         },
         "compile": {
           "lib/net7.0/_._": {
@@ -970,7 +970,7 @@
           }
         }
       },
-      "System.Text.Encodings.Web/7.0.0": {
+      "System.Text.Encodings.Web/8.0.0-preview.5.23280.8": {
         "type": "package",
         "compile": {
           "lib/net7.0/System.Text.Encodings.Web.dll": {
@@ -992,10 +992,10 @@
           }
         }
       },
-      "System.Text.Json/7.0.0": {
+      "System.Text.Json/8.0.0-preview.5.23280.8": {
         "type": "package",
         "dependencies": {
-          "System.Text.Encodings.Web": "7.0.0"
+          "System.Text.Encodings.Web": "8.0.0-preview.5.23280.8"
         },
         "compile": {
           "lib/net7.0/System.Text.Json.dll": {
@@ -1338,10 +1338,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/7.0.8": {
-      "sha512": "dG+QxTeRZhtEbsN+VXF2D5z6kT1/pOFRkSTXnggugqTz3p7qSceyLqJoyGZXI8l3YsmDywgD7yfxvcy0X8uZMA==",
+    "Microsoft.EntityFrameworkCore.Design/8.0.0-preview.5.23280.1": {
+      "sha512": "AL1+pmGoSn+pFt6Di42hbp/pUJXJh7EpRPsZa+LiAUVHzhW8tQAHR99eY61sYazDhc+1NvWLumtLudE6qwEqaA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/7.0.8",
+      "path": "microsoft.entityframeworkcore.design/8.0.0-preview.5.23280.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1349,7 +1349,7 @@
         "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.7.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.8.0.0-preview.5.23280.1.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -1531,16 +1531,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyModel/7.0.0": {
-      "sha512": "oONNYd71J3LzkWc4fUHl3SvMfiQMYUCo/mDHDEu76hYYxdhdrPYv6fvGv9nnKVyhE9P0h20AU8RZB5OOWQcAXg==",
+    "Microsoft.Extensions.DependencyModel/8.0.0-preview.5.23280.8": {
+      "sha512": "A9c3yKnzuVQLGvRbAYyfx4oTGrOITUl7oaUxynGQ/8fHyWQjtoqR64o7NtIxYD2TOSqU7IWgteDFAcGLxvuNGg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencymodel/7.0.0",
+      "path": "microsoft.extensions.dependencymodel/8.0.0-preview.5.23280.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
-        "README.md",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.DependencyModel.targets",
         "buildTransitive/net462/_._",
@@ -1552,9 +1552,11 @@
         "lib/net6.0/Microsoft.Extensions.DependencyModel.xml",
         "lib/net7.0/Microsoft.Extensions.DependencyModel.dll",
         "lib/net7.0/Microsoft.Extensions.DependencyModel.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyModel.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
-        "microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.8.0.0-preview.5.23280.8.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2720,10 +2722,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Encodings.Web/7.0.0": {
-      "sha512": "OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
+    "System.Text.Encodings.Web/8.0.0-preview.5.23280.8": {
+      "sha512": "g4I3rXyyQj4AmsooE1z1nCYjXY712foWowYdCep13QajdgNiVOXSBTij2CbqR6+gryMj/x/cInk2TGcBS79ubw==",
       "type": "package",
-      "path": "system.text.encodings.web/7.0.0",
+      "path": "system.text.encodings.web/8.0.0-preview.5.23280.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2740,27 +2742,31 @@
         "lib/net6.0/System.Text.Encodings.Web.xml",
         "lib/net7.0/System.Text.Encodings.Web.dll",
         "lib/net7.0/System.Text.Encodings.Web.xml",
+        "lib/net8.0/System.Text.Encodings.Web.dll",
+        "lib/net8.0/System.Text.Encodings.Web.xml",
         "lib/netstandard2.0/System.Text.Encodings.Web.dll",
         "lib/netstandard2.0/System.Text.Encodings.Web.xml",
         "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
         "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
         "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
         "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.7.0.0.nupkg.sha512",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.8.0.0-preview.5.23280.8.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/7.0.0": {
-      "sha512": "DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
+    "System.Text.Json/8.0.0-preview.5.23280.8": {
+      "sha512": "pIbWMzNEuUrO0DAe2T17rloNfrYsHg8MHhmxLOlyPHZgrAXEr3smeZvHaxNGkrJHYPoO7hgmWI9tuTI/kiJT8Q==",
       "type": "package",
-      "path": "system.text.json/7.0.0",
+      "path": "system.text.json/8.0.0-preview.5.23280.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
-        "README.md",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
         "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
@@ -2815,9 +2821,11 @@
         "lib/net6.0/System.Text.Json.xml",
         "lib/net7.0/System.Text.Json.dll",
         "lib/net7.0/System.Text.Json.xml",
+        "lib/net8.0/System.Text.Json.dll",
+        "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.7.0.0.nupkg.sha512",
+        "system.text.json.8.0.0-preview.5.23280.8.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2896,7 +2904,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 8.0.0-preview.5.23280.1",
-      "Microsoft.EntityFrameworkCore.Design >= 7.0.8",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.0-preview.5.23280.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.5.23280.1",
       "ToDoTest.DAL >= 1.0.0",
       "ToDoTest.Domain >= 1.0.0"
@@ -2962,7 +2970,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[7.0.8, )"
+            "version": "[8.0.0-preview.5.23280.1, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

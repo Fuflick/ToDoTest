@@ -6,11 +6,16 @@ using ToDoTest.DAL.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connection = new SqlConnection("Server=KRAIBEN;Database=ToDoTest;Trusted_Connection=True");
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
-builder.Services.AddScoped<ITaskRepository, Taskrepository>();
+
+void ConfigureServices()
+{
+    builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=KRAIBEN;Database=ToDoTest;Trusted_Connection=True"));
+}
+builder.Services.AddScoped<ITaskRepository, Taskrepository>();  
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
 
 var app = builder.Build();
 
@@ -24,6 +29,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 
 app.UseRouting();
 
