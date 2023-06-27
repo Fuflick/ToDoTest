@@ -22,9 +22,9 @@ public class Taskrepository : ITaskRepository
         throw new NotImplementedException();
     }
 
-    public async Task<List<Task>> Select()
+    public Task<List<Task>> Select()
     {
-        return await _db.Tasks.ToListAsync();
+        throw new NotImplementedException();
     }
 
     public bool Deleate(Task entity)

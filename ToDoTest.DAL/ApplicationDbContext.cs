@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace ToDoTest.DAL
 {
@@ -8,10 +6,17 @@ namespace ToDoTest.DAL
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
+            Database.EnsureCreated();
         }
         
-        
-        public DbSet<Task>? Tasks { get; set; } 
+        public DbSet<Task>? Tasks { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Task>()
+                .HasKey(t => t.Id);
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
 

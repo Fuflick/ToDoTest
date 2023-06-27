@@ -1,24 +1,22 @@
+using Microsoft.AspNetCore.Connections;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using ToDoTest;
 using ToDoTest.DAL;
 using ToDoTest.DAL.Interfaces;
 using ToDoTest.DAL.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<ITaskRepository, Taskrepository>();
 
-void ConfigureServices()
-{
-    builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=KRAIBEN;Database=ToDoTest;Trusted_Connection=True"));
-}
-builder.Services.AddScoped<ITaskRepository, Taskrepository>();  
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-
+builder.Services.AddDbContext<ApplicationDbContext>((options) => options.UseSqlServer("Server=KRAIBEN;Database=ToDoTest;Trusted_Connection=True;Encrypt=False"));
 
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "30CFptYQ4sSdTsGp9jIQ4T6RfyY4N6ziD7GuO283HmCU3tdu76H1/JLtH3MJwBhnAYZ/73xwOaOgrpLuSqDbVA==",
+  "dgSpecHash": "mmofLBpQyVD8uItCZwxlB4uDXv35nlRbuD+xEtPO2hn+aTUc3Oc68xrpWAQ62eWAEyndqFWXcvhlJ+ynGwaJXg==",
   "success": true,
   "projectFilePath": "C:\\Вуз_Работы\\C#\\Jeplex\\ToDoTest\\ToDoTest\\ToDoTest.Domain\\ToDoTest.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\79109\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
