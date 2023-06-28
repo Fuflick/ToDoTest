@@ -3,11 +3,11 @@ using ToDoTest.DAL.Interfaces;
 
 namespace ToDoTest.DAL.Repositories;
 
-public class Taskrepository : ITaskRepository
+public class TaskRepository : ITaskRepository
 {
     private ApplicationDbContext _db;
 
-    public Taskrepository(ApplicationDbContext db)
+    public TaskRepository(ApplicationDbContext db)
     {
         _db = db;
     }
@@ -24,14 +24,14 @@ public class Taskrepository : ITaskRepository
 
     public Task<List<Task>> Select()
     {
-        throw new NotImplementedException();
+        return _db.Tasks!.ToListAsync();
     }
-    
-    public bool Deleate(Task entity)
+
+    public bool Delete(Task entity)
     {
         throw new NotImplementedException();
     }
-
+    
     public Task GetByName(string Name)
     {
         throw new NotImplementedException();

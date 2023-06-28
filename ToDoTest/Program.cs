@@ -8,7 +8,7 @@ using ToDoTest.DAL.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<ITaskRepository, Taskrepository>();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 
 
 // Add services to the container.

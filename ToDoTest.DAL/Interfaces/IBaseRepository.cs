@@ -1,6 +1,6 @@
 ﻿namespace ToDoTest.DAL.Interfaces;
 
-public interface IBaseRepositoty<T>
+public interface IBaseRepository<T>
 {
     bool Create(T entity);
 
@@ -8,5 +8,5 @@ public interface IBaseRepositoty<T>
 
     Task<List<T>> Select();
 
-    bool Deleate(T entity);
+    bool Delete(T entity);
 }

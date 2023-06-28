@@ -1,6 +1,6 @@
 ﻿namespace ToDoTest.DAL.Interfaces;
 
-public interface ITaskRepository : IBaseRepositoty<Task>
+public interface ITaskRepository : IBaseRepository<Task>
 {
-    Task GetByName(string Name);
+    Task GetByName(string name);
 }
