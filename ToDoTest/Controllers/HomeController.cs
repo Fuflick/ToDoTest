@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ToDoTest.DAL.Interfaces;
 using ToDoTest.Models;
-using Task = ToDoTest.Domain.Entity.Task;
 
 
 namespace ToDoTest.Controllers;
@@ -19,7 +18,7 @@ public class HomeController : Controller
     }
 
    
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
     {
         return View();
     }
