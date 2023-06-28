@@ -26,7 +26,7 @@ public class Taskrepository : ITaskRepository
     {
         throw new NotImplementedException();
     }
-
+    
     public bool Deleate(Task entity)
     {
         throw new NotImplementedException();

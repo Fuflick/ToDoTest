@@ -6,10 +6,9 @@ namespace ToDoTest.DAL
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            Database.EnsureCreated();
+           
         }
         
-        public DbSet<Task>? Tasks { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Task>()
@@ -17,6 +16,8 @@ namespace ToDoTest.DAL
 
             base.OnModelCreating(modelBuilder);
         }
+        
+        public DbSet<Task>? Tasks { get; set; }
     }
 }
 

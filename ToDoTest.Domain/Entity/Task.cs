@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 using ToDoTest.Domain.Enum;
 
@@ -9,11 +10,10 @@ namespace ToDoTest.Domain.Entity
         private int _id;
 
         [Key]
-        [BackingField(nameof(_id))]
-        public int Id 
-        { 
-            get { return _id; }
-            set { _id = value; }
+        [Column("TaskId")]
+        public int Id
+        {
+            get; set;
         }
         
         public string? Body { get; set; }
@@ -24,6 +24,16 @@ namespace ToDoTest.Domain.Entity
         
         public DateTime SetTime { get; set; }
 
+        /*private int GetId()
+        {
+            return _id;
+        }
+
+        private void SetId(int val)
+        {
+            _id = val;
+        }*/
+        
         public Task()
         {
         }

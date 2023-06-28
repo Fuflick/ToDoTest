@@ -21,7 +21,6 @@ public class HomeController : Controller
    
     public async Task<IActionResult> Index()
     {
-        var response = await _taskRepository.Select();
         return View();
     }
 
